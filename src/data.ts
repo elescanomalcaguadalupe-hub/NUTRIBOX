@@ -6,7 +6,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Caja Clásica Proteica",
     category: 'Sándwich',
     price: 8.00,
-    imageUrl: "/https://i.imgur.com/regenerated_image_1779938012967.jpg",
+    imageUrl: " https://i.imgur.com/rQNNTOI.jpg ",
     description: "Sándwich de pollo deshilachado con palta y yogurt natural. Fresco, cremoso y lleno de proteína.",
     kcal: 420,
     macros: {
@@ -33,7 +33,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Wrap Criollo Lomo Saltado Light",
     category: 'Wraps',
     price: 8.00,
-    imageUrl: "/src/assets/images/regenerated_image_1779905622240.png",
+    imageUrl: " https://i.imgur.com/FQ3XuXS.jpg ",
     description: "Wrap integral relleno de pollo salteado al estilo criollo con cebolla, tomate y ají amarillo.",
     kcal: 390,
     macros: {
@@ -61,7 +61,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Power Anticuchero",
     category: 'Platos',
     price: 8.00,
-    imageUrl: "/src/assets/images/regenerated_image_1779938011773.jpg",
+    imageUrl: " https://i.imgur.com/AjaWEXj.jpg ",
     description: "Pollo anticuchero con papa amarilla, ensalada fresca y cremita de ají amarillo.",
     kcal: 480,
     macros: {
