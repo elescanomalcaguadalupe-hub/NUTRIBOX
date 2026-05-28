@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+ffimport { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Order } from '../types';
 import L from 'leaflet';
@@ -56,7 +56,7 @@ export default function TrackingScreen({
   
   // Chat messaging list
   const [messages, setMessages] = useState([
-    { id: '1', sender: 'carlos', text: '¡Hola! Ya estoy preparando mi mochila térmica Nutribox para llevar tu comida calientita. ¿Alguna indicación específica?', time: '12:20' }
+    { id: '1', sender: 'trabajador', text: '¡Hola! Ya estoy preparando mi mochila térmica Nutribox para llevar tu comida calientita. ¿Alguna indicación específica?', time: '12:20' }
   ]);
   const [inputText, setInputText] = useState('');
   const [courierRinging, setCourierRinging] = useState(false);
@@ -671,7 +671,7 @@ export default function TrackingScreen({
                 /* Connected mock conversation screen */
                 <div className="bg-white/10 p-6 rounded-2xl border border-white/15 space-y-4">
                   <p className="text-sm font-bold text-white leading-relaxed">
-                    "¡Hola mateo! Voy ingresando con mi moto por el acceso del Bloque B. Estoy a unos segundos de llegar, lleva tu yape listo."
+                    "¡Hola! ¨Estoy a unos segundos de llegar,preparate para recibir tu pedido."
                   </p>
                   <button
                     onClick={() => setShowCall(false)}
