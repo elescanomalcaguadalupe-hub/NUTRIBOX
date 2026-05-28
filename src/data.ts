@@ -33,7 +33,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Wrap Criollo Lomo Saltado Light",
     category: 'Wraps',
     price: 8.00,
-    imageUrl: " https://i.imgur.com/FQ3XuXS.jpg ",
+    imageUrl: " https://i.imgur.com/AjaWEXj.jpg ",
     description: "Wrap integral relleno de pollo salteado al estilo criollo con cebolla, tomate y ají amarillo.",
     kcal: 390,
     macros: {
@@ -61,7 +61,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Power Anticuchero",
     category: 'Platos',
     price: 8.00,
-    imageUrl: " https://i.imgur.com/AjaWEXj.jpg ",
+    imageUrl: " https://i.imgur.com/FQ3XuXS.jpg ",
     description: "Pollo anticuchero con papa amarilla, ensalada fresca y cremita de ají amarillo.",
     kcal: 480,
     macros: {
