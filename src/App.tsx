@@ -26,9 +26,9 @@ export default function App() {
 
   // User student credentials state initialized with user info
   const [user, setUser] = useState<UserProfile>({
-    name: "Usuario",
-    email: "usuario@gmail.com",
-    phone: "+51 987 654 321",
+    name: " Usuario ",
+    email: " usuario@gmail.com ",
+    phone: "+51 987 654 313",
     address: "",
     photoUrl: "",
     isLoggedIn: false
