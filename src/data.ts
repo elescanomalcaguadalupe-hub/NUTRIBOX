@@ -83,3 +83,4 @@ export const MENU_ITEMS: MenuItem[] = [
     ],
     tags: ["Alto en proteína", "Criollo"]
   }
+  ];
