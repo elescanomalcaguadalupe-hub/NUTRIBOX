@@ -26,8 +26,8 @@ export default function App() {
 
   // User student credentials state initialized with user info
   const [user, setUser] = useState<UserProfile>({
-    name: "Mateo Osorio",
-    email: "guadalupeosorio7618@gmail.com",
+    name: "usuario",
+    email: "usuario@gmail.com",
     phone: "+51 987 654 321",
     address: "",
     photoUrl: "",
@@ -49,7 +49,7 @@ export default function App() {
       courier: {
         name: "NutriDelivery",
         photoUrl: "",
-        rating: 4.9,
+        rating: 9.9,
         title: "NutriDelivery Pro"
       },
       createdAt: '22 de Mayo, 12:35 PM'
@@ -163,7 +163,7 @@ export default function App() {
       courier: {
         name: "NutriDelivery",
         photoUrl: "",
-        rating: 4.9,
+        rating: 8.9,
         title: "NutriDelivery Pro"
       },
       createdAt: 'Hoy, ' + new Date().toLocaleTimeString('es-PE', { hour: 'numeric', minute: '2-digit' })
