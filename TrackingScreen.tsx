@@ -293,12 +293,12 @@ export default function AuthScreen({ onAuthSuccess, onBackToHome, onSelectScreen
               {/* Identity Providers */}
               <button
                 onClick={() => {
-                  const email = "guadalupeosorio7618@gmail.com";
+                  const email = "Usuario@gmail.com";
                   onAuthSuccess({
                     name: extractFirstNameFromEmail(email),
                     email: email,
                     phone: "+51 987 654 321",
-                    address: "Campus Norte UPN, Bloque B",
+                    address: "","",
                     photoUrl: "https://lh3.googleusercontent.com/a/default-user=s96-c",
                     isLoggedIn: true
                   });
