@@ -6,7 +6,7 @@ export const MENU_ITEMS: MenuItem[] = [
     name: "Caja Clásica Proteica",
     category: 'Sándwich',
     price: 8.00,
-    imageUrl: "/src/assets/images/regenerated_image_1779938012967.jpg",
+    imageUrl: "/https://i.imgur.com/regenerated_image_1779938012967.jpg",
     description: "Sándwich de pollo deshilachado con palta y yogurt natural. Fresco, cremoso y lleno de proteína.",
     kcal: 420,
     macros: {
@@ -83,4 +83,3 @@ export const MENU_ITEMS: MenuItem[] = [
     ],
     tags: ["Alto en proteína", "Criollo"]
   }
-];
