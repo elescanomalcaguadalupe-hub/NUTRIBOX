@@ -174,7 +174,7 @@ export default function MenuScreen({
             <span className="material-icons-span text-white text-xl">eco</span>
             <div className="flex-1">
               <p className="text-xs font-black leading-tight">Próximamente 🌱</p>
-              <p className="text-[10.5px] font-semibold opacity-90 mt-0.5">Estamos preparando opciones vegetarianas para ti</p>
+              <p className="text-[10.5px] font-semibold opacity-90 mt-0.5">Estamos preparando opciones vegetarianas y veganas para ti</p>
             </div>
             <button
               onClick={() => setVeggieToast(false)}
